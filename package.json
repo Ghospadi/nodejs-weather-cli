@@ -1,0 +1,40 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "app.js",
+  "browser": "app.js",
+  "bin": "./index.js",
+  "os": [
+    "!win32"
+  ],
+  "cpu": [
+    "!arm"
+  ],
+  "man": [
+    "./README.md"
+  ],
+  "engines": {
+    "node": ">16"
+  },
+  "funding": "https://ghospadi.com",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Tymur Khamzin",
+  "license": "ISC",
+  "homepage": "https//ghospadi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://ghospadi.com"
+  },
+  "bugs": {
+    "url": "https://ghospadi.com",
+    "email": "ghospadi@gmail.com"
+  }
+}
