@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "mytraining-weather-cli-application",
   "version": "1.0.0",
   "description": "CLI for getting weather",
   "main": "weather.js",
@@ -30,6 +30,7 @@
   "dependencies": {
     "axios": "^0.27.2",
     "chalk": "^5.0.1",
-    "dedent-js": "^1.0.1"
+    "dedent-js": "^1.0.1",
+    "mytraining-weather-cli-application": "^1.0.0"
   }
 }
